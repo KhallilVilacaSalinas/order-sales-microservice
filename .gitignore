@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivos de logs
+logs/
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de teste e cobertura
+coverage/
+.nyc_output/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/

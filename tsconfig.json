@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"experimentalDecorators": true,
+		"outDir": "./dist",
+    	"sourceMap": false,
+		"emitDecoratorMetadata": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"noEmit": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true
+		//"strictPropertyInitialization": false
+	},
+	"include": ["src/**/*", "Kernel/**/*", "tests/**/*.ts"],
+	"exclude": ["node_modules", "dist"]
+}
