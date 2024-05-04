@@ -12,12 +12,11 @@ export class Kernel {
 
     constructor() {
         this.routeOrchestrator = new RouteOrchestrator();
-
+        dotenv.config();
     }
 
     public run(): void {
         this.routes = this.routeOrchestrator.generate();
-        dotenv.config();
     }
 
     public getRoutes(): Router[] {
